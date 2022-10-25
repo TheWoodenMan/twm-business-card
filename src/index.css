@@ -1,7 +1,6 @@
 :root {
 	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 62.5%;
 	font-weight: 400;
 
 	color-scheme: light dark;
@@ -17,7 +16,7 @@
 
 a {
 	font-weight: 500;
-	color: #646cff;
+	color: #f5f5f5;
 	text-decoration: inherit;
 }
 a:hover {
@@ -33,50 +32,139 @@ body {
 	background-color: #23252c;
 }
 
-img {
+div.App {
+	border-radius: 0 0 15px 15px;
+}
+
+div.Info {
+	border-radius: 15px 15px 0 0;
+}
+
+div.Footer {
+	padding: 2%;
+	margin: 0 0 5% 0;
+	background-color: #161619;
+}
+
+div.Footer > div.icon-container {
+	border-radius: 0 0 15px 15px;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0 0 5% 0;
+	margin: 0 15%;
+}
+
+div.About,
+div.Interests {
+	margin: 0 10% 5% 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.About > h2,
+div.Interests > h2 {
+	align-self: flex-start;
+	margin: 0;
+}
+
+div.About > p,
+div.Interests > p {
+	text-align: left;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	margin: 0 1%;
+}
+
+.portrait {
 	width: 100%;
+	border-radius: 15px 15px 0 0;
+	background-color: #23252c;
 }
 
 h1 {
 	font-size: 2.4em;
 	line-height: 1.1;
 	color: #f5f5f5;
+	margin: 5% 0 0 1%;
 }
 
 h2 {
 	font-size: 1.8em;
 	color: #f5f5f5;
+	margin: 0 0 1% 0;
 }
 
 h3 {
 	color: #f3bf99;
+	margin: 0 0 1% 0;
 }
 
 p {
 	color: #dcdcdc;
 }
 
-span {
+.portfolio-link {
 	color: #f5f5f5;
+	margin: 0 0 10% 0;
 }
 
-button {
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
-	font-family: inherit;
-	background-color: #1a1a1a;
-	cursor: pointer;
-	transition: border-color 0.25s;
-}
-button:hover {
+.btn:hover {
 	border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+.btn:focus,
+.btn:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn {
+	border-radius: 5px;
+	border: 1px solid transparent;
+	font-size: 1em;
+	padding: 2% 5%;
+	margin: 2% 2% auto;
+}
+
+.btn-container {
+	margin-top: 5%;
+}
+
+.email {
+	background-color: #d1d5db;
+	color: #374151;
+}
+
+.linkedin {
+	background-color: #5093e2;
+}
+
+.btn-icon {
+	height: auto;
+	width: 1em;
+	padding: 0 2%;
+}
+
+div.Footer > div.icon-container > a.btn {
+	padding: 2% 1% 1% 0;
+}
+
+img.footer-icon {
+	height: auto;
+	width: 2.5em;
+	padding: 0;
+	margin: 15% 5%;
+	color: #918e9b;
+}
+
+.email-icon {
+	vertical-align: middle;
+}
+
+.linkedin-icon {
+	vertical-align: text-top;
+}
+
+.Info {
+	margin: 0 0 10% 0;
 }
 
 @media (prefers-color-scheme: light) {

@@ -12,16 +12,35 @@ import { icon } from "@fortawesome/fontawesome";
 const Info = () => {
 	return (
 		<div className="Info">
-			<img src="src/assets/AWPortraitSquare480pdeepblue-jpg.jpg" />
-			<h1>Andy Wood</h1>;<h3>Full Stack Developer</h3>;
-			<span>www.andynwood.com</span>
-			<div>
-				<a href="mailto:andynwood@gmail.com?subject=Re: Business Card Contact">
-					Email
+			<img
+				className="portrait"
+				src="src/assets/AWPortraitSquare480pdeepblue-jpg.jpg"
+			/>
+			<h1>Andy Wood</h1>
+			<h3>Full Stack Developer</h3>
+			<span className="portfolio-link">www.andynwood.com</span>
+			<div className="btn-container">
+				<a
+					className="btn email"
+					href="mailto:andynwood@gmail.com?subject=Re: Business Card Contact"
+				>
+					<img
+						className="btn-icon email-icon"
+						src="src/assets/envelopeicon.png"
+					/>
+					<span>Email</span>
 					{/*<FontAwesomeIcon icon={faEnvelope} />*/}
 				</a>
-				<a href="https://www.linkedin.com/in/andynwood/">
-					Linkedin
+				<a
+					className="btn linkedin"
+					href="https://www.linkedin.com/in/andynwood/"
+					target="_blank"
+				>
+					<img
+						className="btn-icon linkedin-icon"
+						src="src/assets/inlogowhite.png"
+					/>
+					<span>Linkedin</span>
 					{/*<FontAwesomeIcon icon={faLinkedin} /> */}
 				</a>
 			</div>
