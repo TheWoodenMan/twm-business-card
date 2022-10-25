@@ -5,7 +5,11 @@ function Footer() {
 	return (
 		<div className="Footer">
 			<div className="icon-container">
-				<a href="https://twitter.com/Andynwood79" className="btn">
+				<a
+					href="https://twitter.com/Andynwood79"
+					className="btn twitter"
+					target="_blank"
+				>
 					<img
 						src="src/assets/twitter.png"
 						alt="twitter"
@@ -13,7 +17,11 @@ function Footer() {
 					/>
 				</a>
 
-				<a href="https://blog.andynwood.com/" className="btn">
+				<a
+					href="https://blog.andynwood.com/"
+					className="btn hashnode"
+					target="_blank"
+				>
 					<img
 						src="src/assets/hashnode.png"
 						alt="hashnode"
@@ -21,7 +29,11 @@ function Footer() {
 					/>
 				</a>
 
-				<a href="https://github.com/TheWoodenMan" className="btn">
+				<a
+					href="https://github.com/TheWoodenMan"
+					className="btn github"
+					target="_blank"
+				>
 					<img
 						src="src/assets/github512x512.png"
 						alt="github"
@@ -29,7 +41,11 @@ function Footer() {
 					/>
 				</a>
 
-				<a href="https://discord.com/users/255864987438809088" className="btn">
+				<a
+					href="https://discord.com/users/255864987438809088"
+					className="btn discord"
+					target="_blank"
+				>
 					<img
 						src="src/assets/discord.png"
 						alt="discord"
