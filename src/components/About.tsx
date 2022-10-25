@@ -10,8 +10,8 @@ function About() {
 				leadership and management.
 			</p>
 			<p>
-				I enjoy problem-solving, learning quickly and engaging with teams to
-				deliver effective solutions.
+				I enjoy problem-solving, learning quickly and engaging with clients and
+				teams to deliver effective solutions.
 			</p>
 		</div>
 	);

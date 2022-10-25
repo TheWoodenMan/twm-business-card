@@ -6,9 +6,8 @@ function Interests() {
 		<div className="Interests">
 			<h2>Interests</h2>
 			<p>
-				Agile methods, Leadership, Self-Development, Creative Cookery, Wine &
-				Whisky Appreciation, Karate Sensei, TTRPG Game Master, ADHD/Autism
-				Advocacy.
+				Agile, Leadership, Self-Development, Creative Cookery, Wine & Whisky
+				Appreciation, Teaching Karate, TTRPG Game Master, ADHD/Autism Advocacy.
 			</p>
 		</div>
 	);
