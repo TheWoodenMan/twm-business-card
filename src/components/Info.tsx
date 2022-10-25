@@ -18,7 +18,9 @@ const Info = () => {
 			/>
 			<h1>Andy Wood</h1>
 			<h3>Full Stack Developer</h3>
-			<span className="portfolio-link">www.andynwood.com</span>
+			<a href="http://andynwood.com/" target="_blank">
+				<span className="portfolio-link">www.andynwood.com</span>
+			</a>
 			<div className="btn-container">
 				<a
 					className="btn email"
