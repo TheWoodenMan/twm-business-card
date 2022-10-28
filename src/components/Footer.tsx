@@ -11,7 +11,7 @@ function Footer() {
 					target="_blank"
 				>
 					<img
-						src="src/assets/twitter.png"
+						src="/assets/twitter.png"
 						alt="twitter"
 						className="footer-icon"
 					/>
@@ -23,7 +23,7 @@ function Footer() {
 					target="_blank"
 				>
 					<img
-						src="src/assets/hashnode.png"
+						src="/assets/hashnode.png"
 						alt="hashnode"
 						className="footer-icon"
 					/>
@@ -35,7 +35,7 @@ function Footer() {
 					target="_blank"
 				>
 					<img
-						src="src/assets/github512x512.png"
+						src="/assets/github512x512.png"
 						alt="github"
 						className="footer-icon"
 					/>
@@ -47,7 +47,7 @@ function Footer() {
 					target="_blank"
 				>
 					<img
-						src="src/assets/discord.png"
+						src="/assets/discord.png"
 						alt="discord"
 						className="footer-icon"
 					/>

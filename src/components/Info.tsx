@@ -14,7 +14,7 @@ const Info = () => {
 		<div className="Info">
 			<img
 				className="portrait"
-				src="src/assets/AWPortraitSquare480pdeepblue-jpg.jpg"
+				src="/assets/AWPortraitSquare480pdeepblue-jpg.jpg"
 			/>
 			<h1>Andy Wood</h1>
 			<h3>Full Stack Developer</h3>
@@ -26,10 +26,7 @@ const Info = () => {
 					className="btn email"
 					href="mailto:andynwood@gmail.com?subject=Re: Business Card Contact"
 				>
-					<img
-						className="btn-icon email-icon"
-						src="src/assets/envelopeicon.png"
-					/>
+					<img className="btn-icon email-icon" src="/assets/envelopeicon.png" />
 					<span>Email</span>
 					{/*<FontAwesomeIcon icon={faEnvelope} />*/}
 				</a>
@@ -40,7 +37,7 @@ const Info = () => {
 				>
 					<img
 						className="btn-icon linkedin-icon"
-						src="src/assets/inlogowhite.png"
+						src="/assets/inlogowhite.png"
 					/>
 					<span>Linkedin</span>
 					{/*<FontAwesomeIcon icon={faLinkedin} /> */}
