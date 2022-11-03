@@ -1,3 +1,3 @@
 # twm-business-card
 
-contact.andynwood.com
+http://contact.andynwood.com
