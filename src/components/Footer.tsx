@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import twitterIcon from "../assets/twitter.png";
+import hashIcon from "../assets/hashnode.png";
+import gitIcon from "../assets/github512x512.png";
+import discordIcon from "../assets/discord.png";
 
 function Footer() {
 	return (
@@ -10,11 +14,7 @@ function Footer() {
 					className="btn twitter"
 					target="_blank"
 				>
-					<img
-						src="/assets/twitter.png"
-						alt="twitter"
-						className="footer-icon"
-					/>
+					<img src={twitterIcon} alt="twitter" className="footer-icon" />
 				</a>
 
 				<a
@@ -22,11 +22,7 @@ function Footer() {
 					className="btn hashnode"
 					target="_blank"
 				>
-					<img
-						src="/assets/hashnode.png"
-						alt="hashnode"
-						className="footer-icon"
-					/>
+					<img src={hashIcon} alt="hashnode" className="footer-icon" />
 				</a>
 
 				<a
@@ -34,11 +30,7 @@ function Footer() {
 					className="btn github"
 					target="_blank"
 				>
-					<img
-						src="/assets/github512x512.png"
-						alt="github"
-						className="footer-icon"
-					/>
+					<img src={gitIcon} alt="github" className="footer-icon" />
 				</a>
 
 				<a
@@ -46,11 +38,7 @@ function Footer() {
 					className="btn discord"
 					target="_blank"
 				>
-					<img
-						src="/assets/discord.png"
-						alt="discord"
-						className="footer-icon"
-					/>
+					<img src={discordIcon} alt="discord" className="footer-icon" />
 				</a>
 			</div>
 		</div>

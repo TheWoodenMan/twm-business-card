@@ -6,12 +6,14 @@ function About() {
 		<div className="About">
 			<h2>About</h2>
 			<p>
-				An adaptive and collaborative engineer with a background in people
-				leadership and management.
+				An adaptive, flexible engineer with strong communication skills and a
+				proven track record of success. Customer and client-focused with
+				leadership & management experience.
 			</p>
 			<p>
-				I enjoy problem-solving, learning quickly and engaging with clients and
-				teams to deliver effective solutions.
+				Capable of solving business problems with full-stack web apps, APIs &
+				clean, simple UIs Interested in agile, lean, coaching, training, high
+				code standards and pair programming.
 			</p>
 		</div>
 	);

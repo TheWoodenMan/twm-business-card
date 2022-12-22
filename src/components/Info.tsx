@@ -6,18 +6,18 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons/";
 import { icon } from "@fortawesome/fontawesome";
+import envelopeIcon from "../assets/envelopeicon.png";
+import portrait from "../assets/AWPortraitSquare480pdeepblue-jpg.jpg";
+import inLogoWhite from "../assets/inlogowhite.png";
 
 // library.add(fas, faLinkedin, faEnvelope);
 
 const Info = () => {
 	return (
 		<div className="Info">
-			<img
-				className="portrait"
-				src="/assets/AWPortraitSquare480pdeepblue-jpg.jpg"
-			/>
+			<img className="portrait" src={portrait} />
 			<h1>Andy Wood</h1>
-			<h3>Full Stack Developer</h3>
+			<h3>Full Stack Engineer</h3>
 			<a href="http://andynwood.com/" target="_blank">
 				<span className="portfolio-link">www.andynwood.com</span>
 			</a>
@@ -26,7 +26,7 @@ const Info = () => {
 					className="btn email"
 					href="mailto:andynwood@gmail.com?subject=Re: Business Card Contact"
 				>
-					<img className="btn-icon email-icon" src="/assets/envelopeicon.png" />
+					<img className="btn-icon email-icon" src={envelopeIcon} />
 					<span>Email</span>
 					{/*<FontAwesomeIcon icon={faEnvelope} />*/}
 				</a>
@@ -35,10 +35,7 @@ const Info = () => {
 					href="https://www.linkedin.com/in/andynwood/"
 					target="_blank"
 				>
-					<img
-						className="btn-icon linkedin-icon"
-						src="/assets/inlogowhite.png"
-					/>
+					<img className="btn-icon linkedin-icon" src={inLogoWhite} />
 					<span>Linkedin</span>
 					{/*<FontAwesomeIcon icon={faLinkedin} /> */}
 				</a>
