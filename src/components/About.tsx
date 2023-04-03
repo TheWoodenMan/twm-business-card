@@ -6,13 +6,17 @@ function About() {
 		<div className="About">
 			<h2>About</h2>
 			<p>
-				An adaptive, flexible engineer with strong communication skills and a
-				proven track record of success.
+				a skilled and adaptable senior business manager with strong
+				communication skills and a proven track record of success.
 			</p>
-			<p>Customer / client-focused with leadership & management experience.</p>
 			<p>
-				Capable of solving business problems with full-stack web apps, APIs &
-				clean, simple UIs
+				Also a proficient software engineer who enjoys creating impactful
+				websites and applications to solve business problems for clients.
+			</p>
+			<p>
+				HTML5, CSS3, JavaScript, TypeScript, Node.js, Express.js, React, EJS,
+				Bootstrap, Tailwind, Mocha/Chai, Jest, Cypress.io, MongoDB, Mongoose,
+				PostgreSQL, MySQL, RESTful APIs, Strapi, Chat-GPT.
 			</p>
 		</div>
 	);
