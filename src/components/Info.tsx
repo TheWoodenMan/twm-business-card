@@ -1,16 +1,6 @@
-import React, { FunctionComponent } from "react";
-import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library, dom, IconName } from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons/";
-import { icon } from "@fortawesome/fontawesome";
 import envelopeIcon from "../assets/envelopeicon.png";
 import portrait from "../assets/AWPortraitSquare480pdeepblue-jpg.jpg";
 import inLogoWhite from "../assets/inlogowhite.png";
-
-// library.add(fas, faLinkedin, faEnvelope);
 
 const Info = () => {
 	return (
@@ -28,7 +18,6 @@ const Info = () => {
 				>
 					<img className="btn-icon email-icon" src={envelopeIcon} />
 					<span>Email</span>
-					{/*<FontAwesomeIcon icon={faEnvelope} />*/}
 				</a>
 				<a
 					className="btn linkedin"
@@ -37,7 +26,6 @@ const Info = () => {
 				>
 					<img className="btn-icon linkedin-icon" src={inLogoWhite} />
 					<span>Linkedin</span>
-					{/*<FontAwesomeIcon icon={faLinkedin} /> */}
 				</a>
 			</div>
 		</div>

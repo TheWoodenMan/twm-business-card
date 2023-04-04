@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import twitterIcon from "../assets/twitter.png";
 import hashIcon from "../assets/hashnode.png";
 import gitIcon from "../assets/github512x512.png";
