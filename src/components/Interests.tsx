@@ -1,13 +1,13 @@
-function Interests() {
-	return (
-		<div className="Interests">
-			<h2>Interests</h2>
-			<p>
-				Agile, Leadership, Creative Cookery, Wine & Whisky Appreciation, Karate,
-				TTRPG Game Master, ADHD/Autism Advocacy.
-			</p>
-		</div>
-	);
+function Interests () {
+  return (
+    <div className='Interests'>
+      <h2>Interests</h2>
+      <p>
+        Leadership studies, creative cookery, teaching karate, TTRPG game
+        master, ADHD/Autism advocacy, nature walks in Yorkshire
+      </p>
+    </div>
+  )
 }
 
-export default Interests;
+export default Interests
