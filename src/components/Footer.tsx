@@ -1,4 +1,4 @@
-import twitterIcon from "../assets/twitter.png";
+import blueskyIcon from "../assets/bluesky.png";
 import hashIcon from "../assets/hashnode.png";
 import gitIcon from "../assets/github512x512.png";
 import discordIcon from "../assets/discord.png";
@@ -8,11 +8,11 @@ function Footer() {
 		<div className="Footer">
 			<div className="icon-container">
 				<a
-					href="https://twitter.com/Andynwood79"
+					href="https://bsky.app/profile/thewoodenman.bsky.social"
 					className="btn twitter"
 					target="_blank"
 				>
-					<img src={twitterIcon} alt="twitter" className="footer-icon" />
+					<img src={blueskyIcon} alt="twitter" className="footer-icon" />
 				</a>
 
 				<a
