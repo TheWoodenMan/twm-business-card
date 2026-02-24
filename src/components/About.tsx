@@ -4,7 +4,7 @@ function About () {
       <h2>About</h2>
       <p>
         a skilled and adaptable senior leader with strong communication,
-        strategic and technical skills and a proven track record of success.
+        strategic leadership and technical skills, with a proven track record of success.
       </p>
       <p>
         Also proficient in software engineering. Enjoys creating impactful
